@@ -1,0 +1,38 @@
+body {
+    background-color: brown;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    width: 1170px;
+    margin: auto;
+}
+.header {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.user {
+    margin-left: auto;
+    color: #fff;
+    display: flex;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    margin-left: 17px;
+}
+.menu-item {
+    margin-right: 25px;
+}
+.menu-link {
+    color: #fff;
+    text-decoration: none;
+}
+.avatar {
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    margin-left: 11px;
+}
